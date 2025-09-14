@@ -1,0 +1,6 @@
+path: C:\Whiteboard Detection Project
+train: C:\Whiteboard Detection Project\images\train
+val: C:\Whiteboard Detection Project\images\val
+
+names:
+  0: Whiteboard
