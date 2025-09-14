@@ -1,0 +1,86 @@
+[project]
+name = "whiteboard-detection-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.5"
+dependencies = [
+    "certifi",
+    "charset-normalizer",
+    "click",
+    "cmake",
+    "colorama",
+    "contourpy",
+    "cycler",
+    "filelock",
+    "fonttools",
+    "fsspec",
+    "idna",
+    "jinja2",
+    "kiwisolver",
+    "markupsafe",
+    "matplotlib",
+    "mpmath",
+    "networkx",
+    "numpy",
+    "opencv-python",
+    "packaging",
+    "pillow",
+    "polars",
+    "psutil",
+    "py-cpuinfo",
+    "pyparsing",
+    "python-dateutil",
+    "pyyaml",
+    "requests",
+    "scipy",
+    "setuptools",
+    "six",
+    "sympy",
+    "torch",
+    "torchvision",
+    "typing-extensions",
+    "ultralytics",
+    "ultralytics-thop",
+    "urllib3",
+]
+
+[tool.uv.sources]
+certifi = { path = "wheels/Extra/certifi-2025.8.3-py3-none-any.whl" }
+charset-normalizer = { path = "wheels/Extra/charset_normalizer-3.4.3-cp313-cp313-win_amd64.whl" }
+colorama = { path = "wheels/Extra/colorama-0.4.6-py2.py3-none-any.whl" }
+cycler = { path = "wheels/Extra/cycler-0.12.1-py3-none-any.whl" }
+fonttools = { path = "wheels/Extra/fonttools-4.59.2-cp313-cp313-win_amd64.whl" }
+idna = { path = "wheels/Extra/idna-3.10-py3-none-any.whl" }
+kiwisolver = { path = "wheels/Extra/kiwisolver-1.4.9-cp313-cp313-win_amd64.whl" }
+markupsafe = { path = "wheels/Extra/MarkupSafe-3.0.2-cp313-cp313-win_amd64.whl" }
+numpy = { path = "wheels/Extra/numpy-2.2.6-cp313-cp313-win_amd64.whl" }
+opencv-python = { path = "wheels/Extra/opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl" }
+packaging = { path = "wheels/Extra/packaging-25.0-py3-none-any.whl" }
+pillow = { path = "wheels/Extra/pillow-11.3.0-cp313-cp313-win_amd64.whl" }
+pyparsing = { path = "wheels/Extra/pyparsing-3.2.3-py3-none-any.whl" }
+python-dateutil = { path = "wheels/Extra/python_dateutil-2.9.0.post0-py2.py3-none-any.whl" }
+pyyaml = { path = "wheels/Extra/PyYAML-6.0.2-cp313-cp313-win_amd64.whl" }
+scipy = { path = "wheels/Extra/scipy-1.16.1-cp313-cp313-win_amd64.whl" }
+setuptools = { path = "wheels/Extra/setuptools-80.9.0-py3-none-any.whl" }
+six = { path = "wheels/Extra/six-1.17.0-py2.py3-none-any.whl" }
+sympy = { path = "wheels/Extra/sympy-1.13.3-py3-none-any.whl" }
+click = { path = "wheels/click-8.2.1-py3-none-any.whl" }
+cmake = { path = "wheels/cmake-4.1.0-py3-none-win_amd64.whl" }
+contourpy = { path = "wheels/contourpy-1.3.3-cp313-cp313-win_amd64.whl" }
+filelock = { path = "wheels/filelock-3.13.1-py3-none-any.whl" }
+fsspec = { path = "wheels/fsspec-2024.6.1-py3-none-any.whl" }
+jinja2 = { path = "wheels/Jinja2-3.1.4-py3-none-any.whl" }
+matplotlib = { path = "wheels/matplotlib-3.10.6-cp313-cp313-win_amd64.whl" }
+mpmath = { path = "wheels/mpmath-1.3.0-py3-none-any.whl" }
+networkx = { path = "wheels/networkx-3.3-py3-none-any.whl" }
+polars = { path = "wheels/polars-1.33.0-cp39-abi3-win_amd64.whl" }
+requests = { path = "wheels/requests-2.32.5-py3-none-any.whl" }
+typing-extensions = { path = "wheels/typing_extensions-4.12.2-py3-none-any.whl" }
+torch = { path = "wheels/torch-2.8.0+cu129-cp313-cp313-win_amd64.whl" }
+torchvision = { path = "wheels/torchvision-0.23.0+cu129-cp313-cp313-win_amd64.whl" }
+urllib3 = { path = "wheels/Extra/urllib3-2.5.0-py3-none-any.whl" }
+py-cpuinfo = { path = "wheels/Extra/py_cpuinfo-9.0.0-py3-none-any.whl" }
+ultralytics-thop = { path = "wheels/Extra/ultralytics_thop-2.0.17-py3-none-any.whl" }
+psutil = { path = "wheels/Extra/psutil-7.0.0-cp37-abi3-win_amd64.whl" }
+ultralytics = { path = "wheels/ultralytics-8.3.192-py3-none-any.whl" }
