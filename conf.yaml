@@ -1,6 +1,6 @@
 path: ./
-train: ./images/train
-val: ./images/val
+train: ./data/images/train
+val: ./data/images/val
 
 names:
   0: Whiteboard
