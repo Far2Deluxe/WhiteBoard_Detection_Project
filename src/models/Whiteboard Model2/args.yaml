@@ -1,8 +1,8 @@
 task: detect
 mode: train
-model: d:\Ai Project\WhiteBoard_Detection_Project\src\data\yolov8s.pt
-data: d:\Ai Project\WhiteBoard_Detection_Project\src\data\conf.yaml
-epochs: 200
+model: yolov8n.yaml
+data: conf.yaml
+epochs: 10
 time: null
 patience: 100
 batch: 16
@@ -10,10 +10,10 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: '0'
-workers: 0
-project: d:\Ai Project\WhiteBoard_Detection_Project\src\models
-name: Whiteboard Model2
+device: cpu
+workers: 8
+project: null
+name: train2
 exist_ok: false
 pretrained: true
 optimizer: auto
@@ -102,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: d:\Ai Project\WhiteBoard_Detection_Project\src\models\Whiteboard Model2
+save_dir: runs\detect\train2
