@@ -31,9 +31,9 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-🛠️ Installation Steps
+## 🛠️ Installation Steps
 
-1. Clone the repository:
+1.Clone the repository:
 
     git clone https://github.com/Far2Deluxe/WhiteBoard_Detection_Project
     cd WhiteBoard_Detection_Project
@@ -48,12 +48,12 @@ You can auto download all requirements by using command:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-🧠 How It Works
-    1.Image Loading: Reads images from specified directory.
-    2.Object Detection: Uses YOLOv8 to identify whiteboards.
-    3.Classification: Separates images with/without whiteboards.
-    4.Organization: Moves files to appropriate folders.
-    5.Reporting: Provides summary of processing results.
+## 🧠 How It Works
+1.Image Loading: Reads images from specified directory.
+2.Object Detection: Uses YOLOv8 to identify whiteboards.
+3.Classification: Separates images with/without whiteboards.
+4.Organization: Moves files to appropriate folders.
+5.Reporting: Provides summary of processing results.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
