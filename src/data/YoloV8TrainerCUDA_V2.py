@@ -8,6 +8,8 @@ from ultralytics import YOLO
 
 
 def main():
+
+    ## Checks Version of Yolo and the availablity of CUDA for training Via GPU
     print("Ultralytics version:", ultralytics.__version__)
     print("CUDA available:", torch.cuda.is_available())
     if torch.cuda.is_available():
