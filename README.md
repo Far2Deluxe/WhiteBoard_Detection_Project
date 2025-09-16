@@ -60,7 +60,7 @@ You can auto download all requirements by using command:
 - open main.py and run it, it should show the GUI.
 
 
-### 📚 Training codes and Utilie codes are mentioned in notebooks/notebook.ipynb
+### 📚 Training codes and Utilite codes are mentioned in notebooks/notebook.ipynb
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
