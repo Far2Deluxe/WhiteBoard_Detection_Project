@@ -41,19 +41,19 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 
 2. Install Dependencies:
 You can auto download all requirements by using command:
-    uv sync
 
+        uv sync
         or use offline installtion by placing wheels folder inside the project directory and running "Libs Installer.py" script
         which will create the environment and installs all dependencies offline using UV. (wheels folder will be provided via USB due to large size)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 🧠 How It Works
-    1.Image Loading: Reads images from specified directory
-    2.Object Detection: Uses YOLOv8 to identify whiteboards
-    3.Classification: Separates images with/without whiteboards
-    4.Organization: Moves files to appropriate folders
-    5.Reporting: Provides summary of processing results
+    1.Image Loading: Reads images from specified directory.
+    2.Object Detection: Uses YOLOv8 to identify whiteboards.
+    3.Classification: Separates images with/without whiteboards.
+    4.Organization: Moves files to appropriate folders.
+    5.Reporting: Provides summary of processing results.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
