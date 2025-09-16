@@ -34,18 +34,26 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 
 ## 🛠️ Installation Steps
 
-1.Clone the repository:
+# 1.Clone the repository:
 
     git clone https://github.com/Far2Deluxe/WhiteBoard_Detection_Project
     cd WhiteBoard_Detection_Project
 
 
-2. Install Dependencies:
+# 2.Install Dependencies:
 You can auto download all requirements by using command:
 
         uv sync
-        or use offline installtion by placing wheels folder inside the project directory and running "Libs Installer.py" script
+        or use offline installation by placing wheels folder inside the project directory and running "Libs Installer.py" script
         which will create the environment and installs all dependencies offline using UV. (wheels folder will be provided via USB due to large size)
+
+# 3.Open the cloned folder in VScode/Cursor:
+Then use the .vevn enviroment created in project folder so that the depenecies are recognized along side python (verison 3.13.5)
+
+
+
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -67,4 +75,9 @@ You can auto download all requirements by using command:
 | 202270096     | Hayel Ehab        |   Interface Designer  | Graphical User Interface GUI, datasets integration |
 | 202270398     | Luay Zayed        | Model Developer | Model training, data labeling, model testing       |
 | 202270132     | Osama Al-Qubati  | Data Analyst  | Data collection , data labeling, model deployment |
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+## Future Plans 📈✅
 
