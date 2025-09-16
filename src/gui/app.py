@@ -7,7 +7,12 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtGui import QPixmap, QIcon, QImage, QImageReader
 from PyQt6.QtCore import Qt, QSize, QObject, pyqtSignal, QThread
-from detection_module import detect_whiteboards, move_detected_images
+
+#Imports the detection Module Code.
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+from src.detection.detection_module import detect_whiteboards, move_detected_images
 
 
 class ThumbnailWorker(QObject):
