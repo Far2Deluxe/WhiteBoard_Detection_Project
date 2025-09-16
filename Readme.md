@@ -67,3 +67,4 @@ You can auto download all requirements by using command:
 | 202270096     | Hayel Ehab        |   Interface Designer  | Graphical User Interface GUI, datasets integration |
 | 202270398     | Luay Zayed        | Model Developer | Model training, data labeling, model testing       |
 | 202270132     | Osama Al-Qubati  | Data Analyst  | Data collection , data labeling, model deployment |
+
