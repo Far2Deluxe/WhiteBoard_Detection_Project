@@ -40,6 +40,7 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 
 
 2. Install Dependencies:
+You can auto download all requirements by using command:
     uv sync
 
         or use offline installtion by placing wheels folder inside the project directory and running "Libs Installer.py" script
