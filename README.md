@@ -57,3 +57,12 @@ You can auto download all requirements by using command:
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+## 👥 Team Members  
+
+| AC.NO | Name            | Role           | Contributions                        |
+|-------|-----------------|----------------|--------------------------------------|
+| 1     | Student Name 1  | Lead Developer | Data preprocessing, model development |
+| 2     | Student Name 2  | Data Analyst   | EDA, visualization                    |
+| 3     | Student Name 3  | ML Engineer    | Model optimization, deployment        |
+
