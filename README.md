@@ -19,7 +19,8 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 ## 🏗️ Project Structure  
 ```bash
 ├── src/                # Main source code
-│   ├── data/           # Contains Yolo Training Codes 
+│   ├── data/           # Contains Yolo Training Codes
+│   ├── gui/
 │   ├── models/         # Contains trained models
 │   └── utils/          # Helper scripts
 ├── data/               # Conatins Data Images and Labels
