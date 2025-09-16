@@ -49,11 +49,11 @@ You can auto download all requirements by using command:
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🧠 How It Works
-1.Image Loading: Reads images from specified directory.
-2.Object Detection: Uses YOLOv8 to identify whiteboards.
-3.Classification: Separates images with/without whiteboards.
-4.Organization: Moves files to appropriate folders.
-5.Reporting: Provides summary of processing results.
+- Image Loading: Reads images from specified directory.
+- Object Detection: Uses YOLOv8 to identify whiteboards.
+- Classification: Separates images with/without whiteboards.
+- Organization: Moves files to appropriate folders.
+- Reporting: Provides summary of processing results.
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
@@ -62,7 +62,9 @@ You can auto download all requirements by using command:
 
 | AC.NO | Name            | Role           | Contributions                        |
 |-------|-----------------|----------------|--------------------------------------|
-| 1     | Student Name 1  | Lead Developer | Data preprocessing, model development |
-| 2     | Student Name 2  | Data Analyst   | EDA, visualization                    |
-| 3     | Student Name 3  | ML Engineer    | Model optimization, deployment        |
+| 202270029     | Fares Haider    | Lead Developer | Data preprocessing, model development, model optimiztion |
+| 202270096     | Hayel Ehab        |   Interface Designer  | Graphical User Interface GUI, datasets integration |
+| 202270398     | Luay Zayed        | Model Developer | Model training, data labeling, model testing       |
+| 202270132     | Osama Al-Qubati  | Data Analyst  | Data collection , data labeling, model deployment |
+
 
