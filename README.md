@@ -49,16 +49,18 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 # 2.Install Dependencies:
 You can auto download all requirements by using command:
 
-        uv sync
-        or use offline installation by placing wheels folder inside the project directory and running "Libs Installer.py" script
-        which will create the environment and installs all dependencies offline using UV. (wheels folder will be provided via USB due to large size)
+      uv sync
+      
+- or use offline installation by placing wheels folder inside the project directory and running "Libs Installer.py" script
+  which will create the environment and installs all dependencies offline using UV. (wheels folder will be provided via USB due to large size)
 
 # 3.Open the cloned folder in VScode/Cursor:
-Then use the .vevn enviroment created in project folder so that the depenecies are recognized along side python (verison 3.13.5)
+- Then use the .vevn enviroment created in project folder so that the depenecies are recognized.
+- if the environment is not recognized by vscode/cursor, run .venv/scripts/activate.bat and then from vscode/cursor add interprter by path .venv/scripts/python.exe
+- open main.py and run it, it should show the GUI.
 
 
-
-
+### 📚 Training codes and Utilie codes are mentioned in notebooks/notebook.ipynb
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
