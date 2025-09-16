@@ -32,7 +32,13 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-## 🛠️ Installation Steps
+## 🛠️ Installation & Setup
+
+### 📋 Prerequisites
+- Python 3.13.5 or higher
+- UV package manager
+
+## 👣 Steps
 
 # 1.Clone the repository:
 
