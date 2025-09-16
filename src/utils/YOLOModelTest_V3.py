@@ -9,7 +9,7 @@ current_dir = Path(__file__).parent
 project_dir = current_dir.parent.parent
 
 # Path to your trained model
-MODEL_PATH = project_dir / "src" / "models" / "Whiteboard Model7" / "weights" / "best.pt"  # replace with your path
+MODEL_PATH = project_dir / "src" / "models" / "Whiteboard Model4" / "weights" / "best.pt"  # replace with your path
 
 # Path to the folder containing photos to check
 IMAGE_FOLDER = project_dir / "test"  # replace with your folder path
