@@ -9,5 +9,6 @@ wheels/
 # Virtual environments
 .venv
 Images
+TEST2
 
-
+WhiteboardDetector.spec
