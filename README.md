@@ -26,6 +26,7 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 │   └── utils/          # Helper scripts
 ├── data/               # Conatins Data Images and Labels
 ├── doc/                # Contains Documention Files
+├── notebook/           # Contains documentation of tools and utlitize used during pre-training + training
 ├── requirements.txt    # Python dependencies
 ├── pyproject.toml      # Has project dependencies and requirements
 ├── UV.lock             # Auto Generated to lock dependencies to a certain version
