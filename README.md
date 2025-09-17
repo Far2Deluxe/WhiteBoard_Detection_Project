@@ -97,5 +97,14 @@ When First running the GUI you would be faced with the following features:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
-## Future Plans 📈✅
+## ⚒️✨ Models Changelogs :
+
+### Whiteboard Model4
+- Yolo Model: Yolov8s.pt
+- Epochs: 70 (best.pt at 35 epoch due to patience parameter)
+- Used "YoloV8TrainerCUDA_V2.py" in src/data to train
+- Detailed training results are in src/models/Whiteboard Model4/
+- From Personal Test, out of 800 images falsely detected 16 images.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
 
