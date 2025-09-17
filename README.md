@@ -20,7 +20,8 @@ A smart tool that **scans your Pictures/Gallery folder** and detects **photos co
 ```bash
 ├── src/                # Main source code
 │   ├── data/           # Contains Yolo Training Codes
-│   ├── gui/
+│   ├── gui/            # Modren QT GUI
+│   ├── detection/      # Has detection functions 
 │   ├── models/         # Contains trained models
 │   └── utils/          # Helper scripts
 ├── data/               # Conatins Data Images and Labels
