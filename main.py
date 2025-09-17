@@ -1,4 +1,4 @@
-from gui.app import WhiteboardApp
+from src.gui.app import WhiteboardApp
 from PyQt6.QtWidgets import QApplication
 import sys
 
